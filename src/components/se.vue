@@ -9,6 +9,7 @@
         <img src="static\img\全局操作.png" class="caozuo">
       </div>
     </div>
+
     <div class="img">
       <x-img
         src="static\img\1.png"
@@ -25,12 +26,23 @@
         <p class="cardid">9523245</p>
       </div>
     </div>
-    <div class="input">
-      <textarea cols="20" placeholder="输入金额备注"></textarea>
-    </div>
-    <div class="btn">
-      <a>确认</a>
-    </div>
+<div class="erweima">
+       <img src="static\img\2.png">
+      
+</div>
+<p class="haoma">
+    958976654
+</p>
+  <hr>
+ 
+  <div>
+      <div class="wanjufan">
+          玩具反斗城商城
+      </div>
+      <div class="jinqu">
+          进去逛逛>
+      </div>
+  </div>
   </div>
 </template>
 
@@ -71,6 +83,44 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+.jinqu{
+    margin-top: 42px;
+    margin-left: 263px;
+height:33px;
+font-size:24px;
+font-family:PingFangSC-Medium;
+font-weight:500;
+color:rgba(142,142,147,1);
+line-height:33px;
+float: left;
+}
+.wanjufan{
+ margin-left: 62px;
+height:50px;
+font-size:36px;
+font-family:PingFangSC-Medium;
+font-weight:500;
+color:#000000;
+line-height:50px;
+float: left;
+margin-top: 34px;
+}
+hr{
+    width: 624px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+.haoma{
+ text-align: center;
+height:70px;
+font-size:48px;
+font-family:PingFangSC-Regular;
+font-weight:400;
+color:rgba(0,0,0,1);
+line-height:67px;
+letter-spacing:5px;
+margin-top: 10px;
+}
 .right{
   float: left;
  padding-top: 8px;
@@ -146,22 +196,15 @@ justify-content: center;
   color: rgba(208, 209, 234, 1);
   line-height: 28px;
 }
-.input {
-  margin-top: 80px;
-  margin-left: 63px;
+.erweima{
+    width: 100%;
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.input textarea {
-  width: 605px;
-  height: 140px;
-  border-radius: 3px;
-  border: 2px dashed rgba(199, 199, 204, 1);
-  font-size: 24px;
-  font-family: PingFangSC-Regular;
-  font-weight: 400;
-  color: rgba(155, 155, 155, 1);
-  line-height: 33px;
-  padding-top: 20px;
-  padding-left: 20px;
+.erweima img{
+    width: 400px;
 }
 .img {
   width: 100%;
